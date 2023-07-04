@@ -19,7 +19,7 @@ class A
 class B
 {
     public static void main(String[] args) {
-        A.show();
+        A.show(); /* in this 'abhi gupta' came in first but if we remove this and  write in after 23 line then 'abhi gupta' came in last */
         A r=new A();
     }
 }
